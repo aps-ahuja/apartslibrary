@@ -1,0 +1,116 @@
+* {
+    /* background-image: url("../images/comingsoon.jpg"); */
+    margin: 0;
+    font-family: 'gugi', sans-serif;
+    padding: 0;
+}
+
+/* .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(4 12 14);
+    position: sticky;
+    top: 0;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.nav-list li {
+    align-items: center;
+    list-style: none;
+    padding: 15px;
+    margin: 6px;
+}
+
+.nav-list li a {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    color: rgb(143, 140, 140);
+}
+
+.rightNav {
+    margin-right: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+
+
+.navbtn {
+    border: none;
+    font-size: 14px;
+    padding: 3px 6px;
+    border-radius: 10px;
+    background: transparent;
+    color: #b0b0a0;
+    cursor: pointer;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    ;
+}
+.follow-text {
+    color: rgb(255, 255, 255);
+}
+
+.logo img {
+    width: 60px;
+} */
+
+nav{
+
+    background-color : black;
+    padding: 25px 25px;
+
+}
+
+
+.navTop {
+
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.search{
+
+    display : flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.follow-links {
+    font-size: 15px;
+    margin-left: 5px;
+    color: #222;
+    height: 25px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.follow-links a {
+    font-size: 17px;
+    color: #ffffff;
+    margin-left: 19px;
+}

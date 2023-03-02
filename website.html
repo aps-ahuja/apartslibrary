@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon type" href="images\logo_transparent.png">
+    <link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP ARTS</title>
+</head>
+<script>
+    var prevScrollpos = window.pageYOffset;
+
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+</script>
+
+<body>
+
+    <header class="navbar" id="navbar">
+        <ul class="nav-list">
+            <div class="logo">
+                <a href="website.html"><img src="images/logo_transparentdia.jpg" alt="logo"></a>
+            </div>
+
+            <li><a href="website.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="store.html">Store</a></li>
+
+        </ul>
+        <div class="rightNav">
+            <div class="follow-links">
+                <span class="follow-text">Follow us : </span>
+                <a href="https://www.instagram.com/apartslibrary/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></i><a>
+            </div>
+            
+            
+        </div>
+    </header>
+    
+    <section class="background first-section">
+        <div class="box-main">
+            <div class="first-half">
+            <h2 class="head">Welcome to AP ARTS LIBRARY</h2>    
+            <p class="subhead">The place where you buy the art, see the art and learn about the art.</p> 
+
+            <div class="buttons">
+                <button class="btn"><a href="store.html">STORE</a></button>
+                <button class="btn"><a href="blog.html">BLOG</a></button>
+            </div>
+        </div>
+        <div class="second-half">
+            <img class="blogoimg" src="images\logo_transparent.png" alt="logo">
+        </div>
+        </div>
+
+        </section>
+        <hr class="hrcol">
+        <section class="maingall background1">
+
+            <span class="text ">
+            At the right you can see some snippets of my work and if you like what you see you can check more out at the gallery.
+        </span>
+
+
+            <section class=" images ">
+                <div class="wrapper ">
+                    <div class="news-item hero-item">
+                    </div>
+                    <div class="news-item standard-item">
+                    </div>
+                    <div class="news-item standard-item">
+                    </div>
+                    <div class="news-item standard-item">
+                    </div>
+                </div>
+            </section>
+
+
+        </section>
+</body>
+
+</html>

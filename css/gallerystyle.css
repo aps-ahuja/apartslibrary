@@ -1,0 +1,172 @@
+* {
+    font-family: 'gugi', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.headbg {
+    background-color: rgb(0, 0, 0)
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    transition: top 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: ce1nter;
+    
+}
+
+.navbar .icon {
+    display: none;
+  }
+.search-bar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.nav-list li {
+    align-items: center;
+    list-style: none;
+    padding: 15px;
+    margin: 6px;
+}
+
+.nav-list li a {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    color: rgb(143, 140, 140);
+}
+
+.rightNav {
+    margin-right: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.follow-text {
+    color: #fff;
+    padding-left: 6px;
+}
+
+.follow-links {
+    font-size: 15px;
+    margin-left: 5px;
+    color: #222;
+    height: 25px;
+    color: #b0b0a0;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.follow-links a {
+    font-size: 17px;
+    color: #b0b0a0;
+    margin-left: 19px;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    ;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.bg {
+    background-color: rgb(0, 0, 0);
+}
+
+.gallhead {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.background {
+    background: url('../images/gallerybg2.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.hrcol {
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    border: 1px solid;
+    border-color: #fff;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.row img:hover {
+    border: 1px solid rgba(243, 7, 7, 0.774);
+    transition: transform .25s ease;
+    overflow: hidden;
+    transform: scale(1.2);
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+  
