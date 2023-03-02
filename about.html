@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/aboutstyle.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/icon type" href="images\logo_transparent.png">
+    <link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP ARTS</title>
+</head>
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+</script>
+
+<body>
+    <header class="navbar background" id="navbar">
+        <ul class="nav-list">
+            <div class="logo">
+                <a href="website.html"><img src="images/logo_transparentdia.jpg" alt="logo"></a>
+            </div>
+
+            <li><a href="website.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="store.html">Store</a></li>
+
+
+        </ul>
+        <div class="rightNav">
+            <div class="follow-links">
+                <span class="follow-text">Follow us : </span>
+                <a href="https://www.instagram.com/apartslibrary/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></i><a>
+			</div>
+	
+	
+		</div>
+	</header>
+
+	<section class="about background ">
+		<div class="desc">
+		
+        <img src="images\logo_transparent.png" height="500px" width="500px" alt="">
+		<p>Hi there!! <br>I am Amar from AP Arts Library.I am an artist as in the traditional type who draws and stuff.At AP Arts library you can see the work i've done and you will be able to even buy the art in the near future so look out for that if that's what you want. You can contact me though email address given below if you want to get any customized art piece made.</p>
+    	</div>
+
+    </section>
+</body>
+
+</html>
